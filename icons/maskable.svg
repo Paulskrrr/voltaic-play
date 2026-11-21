@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-18 -32 548 548">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="58%" r="70%">
+      <stop offset="0" stop-color="#1b2a58"/>
+      <stop offset="0.55" stop-color="#0b1330"/>
+      <stop offset="1" stop-color="#05080f"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff1c4"/>
+      <stop offset="0.4" stop-color="#f3d88a"/>
+      <stop offset="1" stop-color="#b8913f"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb08a"/>
+      <stop offset="0.45" stop-color="#ff5a2e"/>
+      <stop offset="1" stop-color="#d63a12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff5a2e" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ff5a2e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="-18" y="-32" width="548" height="548" fill="url(#sky)"/>
+  <!-- the V: stepped Deco serifs on each arm -->
+  <path d="M100 118H206V132H192L256 318L320 132H306V118H412V132H394L286 412H226L118 132H100Z"
+        fill="url(#gold)" stroke="#4a3510" stroke-width="5" stroke-linejoin="miter"/>
+    <!-- ember bolt striking through the V -->
+  <circle cx="262" cy="244" r="150" fill="url(#glow)"/>
+  <path d="M290 80L190 262H250L228 412L334 228H274L310 80Z"
+        fill="url(#ember)" stroke="#0b1020" stroke-width="10" stroke-linejoin="miter" paint-order="stroke"/>
+  <path d="M290 80L190 262H250" fill="none" stroke="#ffd3bd" stroke-width="4" stroke-linejoin="miter"/>
+</svg>
